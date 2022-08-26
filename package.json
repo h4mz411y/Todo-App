@@ -1,6 +1,8 @@
 {
   "name": "Todo-App",
-  "homepage": "https://github.com/h4mz411y/Todo-App",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
