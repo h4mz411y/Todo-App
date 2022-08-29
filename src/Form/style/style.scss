@@ -1,0 +1,28 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.form-container {
+
+    padding: 15px;border: 2px solid silver;
+    width: 300px;margin-top: 0;font-size: 1.2em;
+    font-weight: bold;  max-height: 300px;
+     
+    label {
+        display: block;margin-top: 10px;text-transform: capitalize;
+        font-weight: bold; margin-bottom: 10px; margin-left: 2px;
+        font-size: .8em;
+    }
+    .inpit  {
+        border: 1px solid silver;
+        height: 30px;padding: 10px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1060px) {
+  
+    .form-container {
+        margin: 20px 50px;width: 100%;
+    
+    }
+}

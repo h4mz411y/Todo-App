@@ -1,20 +1,30 @@
-import React, { Component } from 'react'
+import React, { StrictMode } from 'react';
+import Header from './Header/header';
+import Form from "./Form/form";
+import List from './List/List';
+import { store } from './Template/store'
+import { Provider } from 'react-redux'
 
-import ToDo from './components/todo/todo';
-import Navbar from './components/navbar/Navbar';
-import SettingsContextProvider from './components/context/Settings';
-import './App.css';
+import {Color_Provider} from './context/change-theme';
 
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className='todo-app'>
-        <SettingsContextProvider>
-          <Navbar />
-          <ToDo />
-        </SettingsContextProvider>
-      </div>
-    )
-  }
+import "./style/style.scss"
+
+function App() {
+  return (
+
+    <Color_Provider>
+        <Provider store={store}>
+            <StrictMode>
+                <Header/>
+                    <div className="container-icon" >
+                        <Form/>
+                        <List/>
+                    </div>
+            </StrictMode>
+        </Provider>
+    </Color_Provider>
+  )
 }
+
+export default App

@@ -1,0 +1,59 @@
+
+%flex{
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.Card-container {
+    border: 2px solid silver;padding: 10px;
+    margin-left: 50px;
+    box-shadow:  2px 2px 2px silver;
+    margin-bottom: 20px; 
+    width: 600px;
+
+
+    .card-header {
+        @extend %flex;
+        border-bottom: .5px solid silver;
+        padding-bottom: 5px;
+        div {
+            @extend %flex;
+            .status {
+                color: white;padding:1px 7px;border-radius: 10px;
+                background-color: blue;
+                &.active{
+                    background-color: red;
+                }
+            }
+
+            .name-section {
+                font-weight: bold;margin-left: 10px;
+            }
+        }
+    }
+
+
+    .output-discreption {
+        padding:  15px 0px;text-transform: capitalize;
+    }
+    .difficelty {
+        text-transform: capitalize; width: 100px; margin-left: auto;
+    }
+}
+
+
+.toggel-container{
+    margin-left: 50px;
+    margin-bottom: 15px;
+    display: flex;align-items: center;justify-content: center;
+}
+
+
+
+.change-status {
+    display: flex;align-items: center;justify-content: space-between;
+}
+.pagination {
+    margin-left: 150px; margin-top: 20px;
+
+    margin-bottom: 100px;
+}

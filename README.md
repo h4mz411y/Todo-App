@@ -1,9 +1,10 @@
-# Todo-App
+# Todo-List  
 
-## Deployed Project
+# PULL REQUEST 
+[PULL-REQUEST](https://github.com/lithhalim/Todo-List/pulls);
 
-[Todo App](https://todo-app0.vercel.app/)
+# NETLIFY
+[NETLIFY](https://wondrous-donut-d76f5b.netlify.app/)
 
-## UseForm 
-
-useForm is a custom hook for managing forms with ease. It takes one object as optional argument. The following example demonstrates all of its properties along with their default values.
+# PROJECT FILE 
+[PROJECT FILE](https://github.com/lithhalim/Todo-List)

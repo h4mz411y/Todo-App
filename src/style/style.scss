@@ -1,0 +1,24 @@
+.container-icon {
+    margin: 10px 200px; display: flex; 
+    gap: 15px;
+}
+
+@media screen and (max-width:1300px) {
+    .container-icon {
+        margin: 10px 0px; 
+    }
+    .container-icon:first-child{
+        width: 100%;
+    }
+      
+}
+
+@media screen and (max-width:1060px) {
+    .container-icon {
+        margin: 10px 0px; flex-wrap: wrap;
+    }
+    .container-icon:first-child{
+        width: 100%;
+    }
+      
+}
